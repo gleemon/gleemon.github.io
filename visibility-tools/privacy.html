@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visibility Tools Privacy Policy</title>
+  <meta name="description" content="How the Visibility Tools Google Slides add-on handles your data.">
+  <link rel="icon" href="icon-128.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="site"><img src="icon-128.png" alt=""><a href="./">Visibility Tools</a></header>
+  <nav><a href="./">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="support.html">Support</a></nav>
+
+  <h1>Privacy Policy</h1>
+  <p class="updated">Effective October 30, 2026</p>
+
+  <p>Visibility Tools is a Google Slides add-on that shows and hides slides automatically, based on tags you type in each
+    slide's speaker notes. This policy explains what the add-on reads, what it stores, and where.</p>
+
+  <p><strong>In short:</strong> Visibility Tools runs entirely inside Google's Apps Script platform, in your own Google
+    account. The developer runs no servers, receives none of your slides, and uses no analytics, advertising, or tracking.</p>
+
+  <h2>What the add-on reads</h2>
+  <ul>
+    <li><strong>The presentations you use it in.</strong> It reads each slide's speaker notes to find visibility tags,
+      reads each slide's title text to label slides in its reports, and reads and changes each slide's
+      <em>Skip slide</em> setting to show or hide it. It also edits speaker notes when you use its tools to add or fix tags.</li>
+    <li><strong>Only decks where you turned on automatic updates, when it runs on its own.</strong> If you turn on automatic
+      updates in a deck, the add-on opens that deck about once an hour, under your account, to apply its tags.</li>
+    <li><strong>Your email address.</strong> When you turn on automatic updates, the add-on records your email address in
+      that deck so other editors can see who runs its updates (shown in the add-on's Settings, Help, and panel).</li>
+  </ul>
+  <p>The add-on does not read your other files, your email, your calendar, or your contacts.</p>
+
+  <h2>What the add-on stores, and where</h2>
+  <table>
+    <thead><tr><th>Data</th><th>Where it is kept</th></tr></thead>
+    <tbody>
+      <tr><td>Each deck's settings: time zone and group shuffle times</td><td>Your Google account (Apps Script user properties for this add-on)</td></tr>
+      <tr><td>Group rotation state: which slides (by ID) are showing in each rotating group</td><td>Your Google account (same)</td></tr>
+      <tr><td>Automatic updates: which deck each of your timers updates, and when it last ran</td><td>Your Google account (same)</td></tr>
+      <tr><td>The email address of the person who turned on automatic updates</td><td>The deck itself (Apps Script document properties), visible to the deck's editors through the add-on</td></tr>
+      <tr><td>Tags and fixes you make with the add-on</td><td>The deck's speaker notes, like any text you type</td></tr>
+    </tbody>
+  </table>
+  <p>None of this data is sent to the developer or to anyone else. Data in your Google account can only be read by the
+    add-on while it runs as you.</p>
+
+  <h2>Error reports</h2>
+  <p>If the add-on runs into an error, Google Apps Script records the error message in the developer's Google Cloud
+    project so the problem can be fixed. Error messages describe what went wrong (for example, "Select one or more slides
+    first") and may include a short value such as a setting you entered. The add-on never writes your slides or speaker
+    notes into its error messages.</p>
+
+  <h2>Sharing</h2>
+  <p>The developer does not sell, rent, share, or transfer your data to anyone, and does not use it for advertising,
+    credit decisions, or training any model. Visibility Tools' use and transfer of information received from Google APIs
+    adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User
+    Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Permissions the add-on asks for</h2>
+  <table>
+    <thead><tr><th>Permission</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td>See, edit, create, and delete your Google Slides presentations</td><td>To read tags and show or hide slides. Automatic updates open a deck by its ID while it is closed, which needs this access rather than access to the open deck only. The add-on only opens decks where you turned on automatic updates.</td></tr>
+      <tr><td>Display and run third-party web content in prompts and sidebars inside Google applications</td><td>To show its menus, dialogs, and panel.</td></tr>
+      <tr><td>Allow this application to run when you are not present</td><td>To run automatic updates once an hour.</td></tr>
+      <tr><td>See your primary Google Account email address</td><td>To show other editors who runs a deck's automatic updates.</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Removing the add-on and your data</h2>
+  <ul>
+    <li>To stop automatic updates for a deck, open <em>Extensions &gt; Visibility Tools &gt; Settings</em> in that deck and
+      uncheck automatic updates. This removes its timer. If a deck is deleted or you lose access, its timer removes itself
+      and the deck's stored settings the next time it runs.</li>
+    <li>To remove the add-on, open <em>Extensions &gt; Add-ons &gt; Manage add-ons</em> in Google Slides.</li>
+    <li>To revoke its access to your account, visit
+      <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+  </ul>
+  <p>Tags in speaker notes are ordinary text in your decks; delete them like any other text.</p>
+
+  <h2>Children</h2>
+  <p>Visibility Tools is a tool for the people who manage slideshows, such as staff who run a school's or organization's
+    display screens. It is not directed to children and does not knowingly collect information from them.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:SUPPORT_EMAIL">SUPPORT_EMAIL</a></p>
+
+  <footer>Visibility Tools · <a href="terms.html">Terms of Service</a></footer>
+</main>
+</body>
+</html>

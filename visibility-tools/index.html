@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visibility Tools</title>
+  <meta name="description" content="A Google Slides add-on that shows and hides slides automatically, using tags in each slide's speaker notes.">
+  <link rel="icon" href="icon-128.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="site"><img src="icon-128.png" alt=""><a href="./">Visibility Tools</a></header>
+  <nav><a href="./">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="support.html">Support</a></nav>
+
+  <h1>Slides that show and hide themselves</h1>
+  <p class="lede">Visibility Tools is a Google Slides add-on for digital signage. Type a short tag in a slide's speaker
+    notes, and the slide shows on the right days and hides when it's done.</p>
+
+  <h2>How it works</h2>
+  <table>
+    <thead><tr><th>Tag</th><th>What it does</th></tr></thead>
+    <tbody>
+      <tr><td><code>[START: 2026-10-01]</code></td><td>Hidden until this date, then shown.</td></tr>
+      <tr><td><code>[END: 2026-10-15]</code></td><td>Shown through this date, hidden the day after.</td></tr>
+      <tr><td><code>[DAYS: MON, WED]</code></td><td>Shown only on these days.</td></tr>
+      <tr><td><code>[GROUP: Sports]</code></td><td>Rotating group: about a third of its slides show at a time, and every slide gets a turn.</td></tr>
+      <tr><td><code>[ALWAYS_SHOW]</code> / <code>[ALWAYS_HIDE]</code></td><td>Forces the slide on or off.</td></tr>
+      <tr><td><code>[MANUAL]</code></td><td>The add-on leaves the slide alone.</td></tr>
+    </tbody>
+  </table>
+  <p>Hidden slides use Google Slides' own <em>Skip slide</em> setting, so they drop out of the published slideshow.</p>
+
+  <h2>Features</h2>
+  <ul>
+    <li><strong>Automatic updates.</strong> Turn them on once per deck and visibility stays current every hour, even when the deck is closed.</li>
+    <li><strong>A panel beside your slides.</strong> See why the selected slide is showing or hidden, and change its dates, days, or group without typing tags.</li>
+    <li><strong>Rotating groups.</strong> Fit more announcements than one loop can hold; groups reshuffle at the times you choose.</li>
+    <li><strong>Review Tags.</strong> Finds misformatted dates, conflicting tags, and expired slides, and fixes what it safely can.</li>
+  </ul>
+
+  <h2>Get started</h2>
+  <div class="card">
+    <p>Install Visibility Tools from the Google Workspace Marketplace (link coming soon), open a deck, and choose
+      <em>Extensions &gt; Visibility Tools &gt; Open Panel</em>.</p>
+    <p>Full instructions: <a href="https://docs.google.com/document/d/1LmFSBg-QKzi2yfX359Sohl_RM7yDjm5jj4zBzve2wy4">Visibility Tools Guide</a></p>
+  </div>
+
+  <h2>Your data</h2>
+  <p>Visibility Tools runs inside your own Google account. The developer runs no servers and never receives your slides.
+    Read the <a href="privacy.html">Privacy Policy</a> for details.</p>
+
+  <footer>Visibility Tools · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a> · <a href="support.html">Support</a></footer>
+</main>
+</body>
+</html>
